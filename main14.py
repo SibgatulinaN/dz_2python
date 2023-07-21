@@ -3,8 +3,8 @@
 
 
 n=int(input("введите число N: "))
-p=1
-while p<=n:
-    p=p*2
-    print(p,end=' ')
+p=0
+while 2 ** p <=n:
+        print(2**p,end=' ')
+        p +=1
    
